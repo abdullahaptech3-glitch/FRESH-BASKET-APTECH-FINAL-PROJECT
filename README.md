@@ -35,7 +35,7 @@
 ---
 
 ## 👤 Author
-* **Your Name** - *Aptech Student* - (https://github.com/abdullahaptech3-glitch/FRESH-BASKET-APTECH-FINAL-PROJECT)
+* **Abdullah Sherazi** - *Aptech Student* - (https://github.com/abdullahaptech3-glitch/FRESH-BASKET-APTECH-FINAL-PROJECT)
 * **Center:** Aptech Computer Education
 
 ---

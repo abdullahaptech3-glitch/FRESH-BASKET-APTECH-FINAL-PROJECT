@@ -1,0 +1,648 @@
+<!DOCTYPE html>
+
+<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@600;700&amp;family=Plus+Jakarta+Sans:wght@400;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { "colors": { "inverse-primary": "#79db8d", "surface-bright": "#faf8ff", "primary-fixed": "#95f8a7", "primary-fixed-dim": "#79db8d", "on-surface": "#131b2e", "inverse-on-surface": "#eef0ff", "primary": "#00652c", "surface-container-low": "#f2f3ff", "secondary-fixed": "#acf847", "error-container": "#ffdad6", "surface": "#faf8ff", "on-secondary": "#ffffff", "on-tertiary": "#ffffff", "on-primary-fixed": "#00210a", "on-tertiary-fixed-variant": "#005321", "outline": "#6f7a6e", "tertiary-fixed-dim": "#4ae176", "primary-container": "#15803d", "on-primary-fixed-variant": "#005323", "tertiary-container": "#008138", "on-tertiary-fixed": "#002109", "surface-tint": "#006d30", "on-primary": "#ffffff", "tertiary": "#00652b", "on-error-container": "#93000a", "on-background": "#131b2e", "secondary-container": "#acf847", "secondary-fixed-dim": "#91db2a", "on-primary-container": "#d3ffd5", "outline-variant": "#becabc", "error": "#ba1a1a", "inverse-surface": "#283044", "on-secondary-fixed-variant": "#304f00", "on-error": "#ffffff", "secondary": "#416900", "surface-container-lowest": "#ffffff", "on-secondary-container": "#457000", "on-tertiary-container": "#d5ffd5", "surface-container-high": "#e2e7ff", "on-surface-variant": "#3f493f", "tertiary-fixed": "#6bff8f", "background": "#faf8ff", "surface-dim": "#d2d9f4", "surface-container": "#eaedff", "on-secondary-fixed": "#102000", "surface-container-highest": "#dae2fd", "surface-variant": "#dae2fd" }, "borderRadius": { "DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px" }, "spacing": { "space-lg": "1.5rem", "space-xs": "0.25rem", "space-sm": "0.5rem", "margin": "1rem", "gutter-desktop": "1.5rem", "space-xl": "2.5rem", "margin-desktop": "2.5rem", "gutter": "1.25rem", "margin-tablet": "1.5rem", "space-md": "1rem" }, "fontFamily": { "headline-md": ["Epilogue"], "body-lg": ["Plus Jakarta Sans"], "label-lg": ["Plus Jakarta Sans"], "display": ["Epilogue"], "body-sm": ["Plus Jakarta Sans"], "body-md": ["Plus Jakarta Sans"], "headline-lg-mobile": ["Epilogue"], "title-md": ["Plus Jakarta Sans"], "headline-lg": ["Epilogue"], "title-lg": ["Plus Jakarta Sans"], "display-mobile": ["Epilogue"], "label-md": ["Plus Jakarta Sans"], "headline-sm": ["Epilogue"], "label-sm": ["Plus Jakarta Sans"] }, "fontSize": { "headline-md": ["24px", { "lineHeight": "32px", "letterSpacing": "-0.01em", "fontWeight": "600" }], "body-lg": ["16px", { "lineHeight": "24px", "fontWeight": "400" }], "label-lg": ["14px", { "lineHeight": "18px", "letterSpacing": "0.01em", "fontWeight": "600" }], "display": ["48px", { "lineHeight": "56px", "letterSpacing": "-0.02em", "fontWeight": "700" }], "body-sm": ["12px", { "lineHeight": "16px", "fontWeight": "400" }], "body-md": ["14px", { "lineHeight": "20px", "fontWeight": "400" }], "headline-lg-mobile": ["26px", { "lineHeight": "34px", "letterSpacing": "-0.01em", "fontWeight": "600" }], "title-md": ["16px", { "lineHeight": "22px", "fontWeight": "600" }], "headline-lg": ["36px", { "lineHeight": "44px", "letterSpacing": "-0.015em", "fontWeight": "600" }], "title-lg": ["18px", { "lineHeight": "24px", "fontWeight": "700" }], "display-mobile": ["34px", { "lineHeight": "42px", "letterSpacing": "-0.015em", "fontWeight": "700" }], "label-md": ["12px", { "lineHeight": "16px", "letterSpacing": "0.02em", "fontWeight": "600" }], "headline-sm": ["20px", { "lineHeight": "28px", "fontWeight": "600" }], "label-sm": ["12px", { "lineHeight": "16px", "letterSpacing": "0.04em", "fontWeight": "700" }] } } } };</script><link rel="stylesheet" href="fb-polish.css"/></head><body class="bg-surface font-body-md text-body-md text-on-surface antialiased"><header class="fixed top-0 left-0 w-full z-50 bg-surface-container-lowest shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="flex flex-col"><div class="bg-primary text-on-primary px-margin md:px-margin-desktop py-space-xs flex items-center justify-between text-label-sm font-label-sm tracking-wide"><div class="flex items-center gap-space-sm mx-auto md:mx-0"><span class="material-symbols-outlined text-sm">info</span><span>SAMPLE/DEMO – NOT A VALID ORDER. Prices, offers and delivery slots are simulated.</span></div><div class="hidden md:flex items-center gap-space-lg text-on-primary-container"><span class="flex items-center gap-space-xs"><span class="material-symbols-outlined text-sm">timer</span>Simulated dispatch</span><span class="flex items-center gap-space-xs"><span class="material-symbols-outlined text-sm">verified</span>Sample delivery promise</span></div></div><div class="max-w-[1360px] w-full mx-auto px-margin md:px-margin-desktop py-space-sm flex items-center justify-between gap-gutter"><div class="flex items-center gap-space-lg"><a class="flex items-center gap-space-sm" data-path="home" href="#"><img alt="FreshBasket Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD8kuDv_lk08UYzRVhJIC0-vvsJFXpEryEuJFwK4K7IffVsg_lVjVUYZGG06HRG3IavYVYOQuK2NDxvtmBtzULEN7p8IAdrLRG12nwdJY-15gk8Hidn6Qec7TW_aMTEaedMuniH2EFgd0ppEGSnRf4t_VRykUufEre242mvYCt66O4iNMNOOqetN9b-2qSTNB0tPDzjUSO4LUAJd4K1ixfdcBdCDfBEd_k8x9ZQf2Y"/><span class="font-headline-sm text-headline-sm text-primary tracking-tight font-bold">FreshBasket</span></a><button class="hidden lg:flex items-center gap-space-xs px-space-md py-space-xs bg-surface-container-low rounded-xl text-left hover:bg-surface-container-high transition-colors" type="button"><span class="material-symbols-outlined text-primary text-lg">location_on</span><div class="flex flex-col"><span class="font-label-sm text-label-sm text-on-surface-variant leading-none">Deliver to</span><span class="font-label-md text-label-md text-on-surface leading-tight font-semibold">DHA Phase 6, Karachi</span></div><span class="material-symbols-outlined text-outline text-sm ml-space-xs">expand_more</span></button></div><div class="flex-1 max-w-2xl mx-gutter-desktop hidden md:block"><div class="relative flex items-center"><span class="material-symbols-outlined absolute left-space-md text-outline text-lg pointer-events-none">search</span><input class="w-full pl-10 pr-space-xl py-space-sm bg-surface-container-low rounded-xl font-body-md text-body-md text-on-surface placeholder:text-outline focus:outline-none focus:bg-surface-container-lowest focus:ring-2 focus:ring-primary" placeholder="Search fresh organic vegetables, A2 milk, sourdough bread..." type="search"/><div class="absolute right-space-sm flex items-center gap-space-xs"><span class="bg-surface-container text-on-surface-variant font-label-sm text-label-sm px-space-xs py-0.5 rounded">⌘K</span></div></div><div class="flex items-center gap-space-sm mt-space-xs"><span class="font-label-sm text-label-sm text-outline">Quick hints:</span><a class="font-label-sm text-label-sm text-primary hover:underline" href="#">Farm Avocados</a><span class="text-outline-variant font-body-sm text-body-sm">•</span><a class="font-label-sm text-label-sm text-primary hover:underline" href="#">Cold Pressed Oils</a><span class="text-outline-variant font-body-sm text-body-sm">•</span><a class="font-label-sm text-label-sm text-primary hover:underline" href="#">Desi Eggs</a><span class="text-outline-variant font-body-sm text-body-sm">•</span><a class="font-label-sm text-label-sm text-primary hover:underline" href="#">Grass-Fed Butter</a></div></div><div class="flex items-center gap-space-md"><a class="hidden xl:flex items-center gap-space-xs text-on-surface-variant hover:text-primary transition-colors" href="tel:+922111137374"><span class="material-symbols-outlined text-lg text-primary">support_agent</span><div class="flex flex-col text-left"><span class="font-label-sm text-label-sm text-outline leading-none">Order WhatsApp</span><span class="font-label-md text-label-md font-semibold text-on-surface leading-tight">+92 21 111-FRESH</span></div></a><a class="relative p-space-xs text-on-surface-variant hover:text-primary hover:bg-surface-container-low rounded-full transition-colors" data-path="wishlist" href="#"><span class="material-symbols-outlined text-2xl">favorite</span><span class="absolute top-0 right-0 w-4 h-4 bg-tertiary text-on-tertiary rounded-full font-label-sm text-label-sm flex items-center justify-center font-bold">3</span></a><a class="flex items-center gap-space-sm bg-primary hover:bg-tertiary text-on-primary px-space-md py-space-xs rounded-xl shadow-[0_4px_12px_rgba(21,128,61,0.25)] transition-all" data-path="cart" href="#"><div class="relative"><span class="material-symbols-outlined text-xl">shopping_basket</span><span class="absolute -top-1.5 -right-2 bg-secondary-container text-on-secondary-container font-label-sm text-label-sm font-bold px-1 rounded-full">4</span></div><div class="hidden sm:flex flex-col text-left"><span class="font-label-sm text-label-sm text-on-primary-container leading-none">Total Cart</span><span class="font-label-md text-label-md font-bold leading-tight">₨ 4,350</span></div></a></div></div><div class="bg-surface-container-low"><div class="max-w-[1360px] mx-auto px-margin md:px-margin-desktop py-space-xs flex items-center justify-between"><nav class="flex items-center gap-space-xs overflow-x-auto py-0.5" data-active-classes="bg-primary text-on-primary font-bold"><a class="font-label-md text-label-md text-on-surface-variant hover:text-on-surface px-space-sm py-1 rounded-lg transition-colors whitespace-nowrap" data-path="home" href="#">Home</a><a class="font-label-md text-label-md text-on-surface-variant hover:text-on-surface px-space-sm py-1 rounded-lg transition-colors whitespace-nowrap" data-path="fresh-fruits" href="#">Fresh Fruits</a><a class="font-label-md text-label-md text-on-surface-variant hover:text-on-surface px-space-sm py-1 rounded-lg transition-colors whitespace-nowrap" data-path="fresh-vegetables" href="#">Fresh Vegetables</a><a class="font-label-md text-label-md text-on-surface-variant hover:text-on-surface px-space-sm py-1 rounded-lg transition-colors whitespace-nowrap" data-path="dairy-and-eggs" href="#">Dairy &amp; Eggs</a><a class="font-label-md text-label-md text-on-surface-variant hover:text-on-surface px-space-sm py-1 rounded-lg transition-colors whitespace-nowrap" data-path="daily-essentials" href="#">Daily Essentials</a><a class="font-label-md text-label-md text-on-surface-variant hover:text-on-surface px-space-sm py-1 rounded-lg transition-colors whitespace-nowrap" data-path="organic-farm" href="#">Organic Farm</a><a class="font-label-md text-label-md text-on-surface-variant hover:text-on-surface px-space-sm py-1 rounded-lg transition-colors whitespace-nowrap" data-path="meat-and-seafood" href="#">Meat &amp; Seafood</a><a class="font-label-md text-label-md text-on-surface-variant hover:text-on-surface px-space-sm py-1 rounded-lg transition-colors whitespace-nowrap" data-path="recipe-bundles" href="#">Recipe Bundles</a><a class="font-label-md text-label-md text-on-surface-variant hover:text-on-surface px-space-sm py-1 rounded-lg transition-colors whitespace-nowrap flex items-center gap-1" data-path="deals-and-offers" href="#"><span class="bg-secondary-container text-on-secondary-container font-label-sm text-label-sm px-1.5 py-0.5 rounded-full font-bold">Offer 25% Off</span>Ramadan / Weekend Deals</a></nav><div class="flex items-center gap-space-sm ml-space-md"><a class="flex items-center gap-space-xs text-on-surface hover:text-primary transition-colors" data-path="profile" href="#"><img alt="Profile" class="w-8 h-8 rounded-full object-cover ring-2 ring-primary/20" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDK3uaRgRgLHfrzk6Irvg0ep6xUjTBoSMKBzPuLWRlA9SJq_8w0IXGpYgoWhdLO5QCm74M7RgOus6Ugh1TD_ReObfGpF0rLmNq63LBObbGA4-fYVjvU0vwJgeRjub8LJqHu-LuLem-jCio9kQz3bCdYCJX8Tx2pxWblf833dHmA6LAQJYZj2VmQlpWHSnqqT6QNPVXoh2LlRVcYWxuR6KO6wiN0KjOWy-VpscJyW0c"/><span class="hidden md:inline font-label-md text-label-md font-semibold text-on-surface">Ayesha K.</span></a></div></div></div></div></header><main class="w-full pt-44 bg-surface min-h-[calc(100vh-28rem)]"><div class="flex flex-col w-full">
+<div class="max-w-[1360px] mx-auto w-full px-margin md:px-margin-desktop py-space-lg flex flex-col gap-space-lg">
+<!-- Progress Indicator Tracker -->
+<div class="w-full bg-surface-container-lowest p-space-md rounded-xl shadow-sm flex flex-col md:flex-row items-center justify-between gap-space-md">
+<div class="flex items-center gap-space-sm w-full md:w-auto">
+<div class="flex items-center justify-center w-8 h-8 rounded-full bg-primary text-on-primary font-label-md text-label-md">1</div>
+<div class="flex flex-col">
+<span class="font-label-md text-label-md font-bold text-primary">1. Cart Review</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">4 farm fresh items</span>
+</div>
+</div>
+<div class="hidden md:block h-0.5 flex-1 max-w-[80px] bg-primary"></div>
+<div class="flex items-center gap-space-sm w-full md:w-auto">
+<div class="flex items-center justify-center w-8 h-8 rounded-full bg-primary-fixed text-on-primary-fixed font-label-md text-label-md">2</div>
+<div class="flex flex-col">
+<span class="font-label-md text-label-md font-semibold text-on-surface">2. Dispatch &amp; Schedule</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Clifton &amp; DHA slot</span>
+</div>
+</div>
+<div class="hidden md:block h-0.5 flex-1 max-w-[80px] bg-surface-container"></div>
+<div class="flex items-center gap-space-sm w-full md:w-auto opacity-60">
+<div class="flex items-center justify-center w-8 h-8 rounded-full bg-surface-container text-on-surface-variant font-label-md text-label-md">3</div>
+<div class="flex flex-col">
+<span class="font-label-md text-label-md font-medium text-on-surface">3. Simulated Payment</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Raast / JazzCash / COD</span>
+</div>
+</div>
+<div class="hidden md:block h-0.5 flex-1 max-w-[80px] bg-surface-container"></div>
+<div class="flex items-center gap-space-sm w-full md:w-auto opacity-60">
+<div class="flex items-center justify-center w-8 h-8 rounded-full bg-surface-container text-on-surface-variant font-label-md text-label-md">4</div>
+<div class="flex flex-col">
+<span class="font-label-md text-label-md font-medium text-on-surface">4. Confirmation</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Receipt #FB-9021</span>
+</div>
+</div>
+</div>
+<!-- Main Cart & Checkout Split Layout -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter items-start">
+<!-- Left Column: Basket Items & Delivery Scheduling (8 cols) -->
+<div class="lg:col-span-8 flex flex-col gap-space-lg">
+<!-- Cart Line Items Card -->
+<div class="bg-surface-container-lowest rounded-xl p-space-md md:p-space-lg shadow-sm flex flex-col gap-space-md">
+<div class="flex items-center justify-between pb-space-sm border-b border-surface-container">
+<div class="flex items-center gap-space-sm">
+<span class="material-symbols-outlined text-primary text-2xl">local_mall</span>
+<h2 class="font-headline-sm text-headline-sm text-on-surface font-bold">Your Harvest Basket</h2>
+<span class="bg-surface-container-low text-primary px-space-sm py-0.5 rounded-full font-label-sm text-label-sm font-semibold" id="items-badge">4 items</span>
+</div>
+<button class="text-on-surface-variant hover:text-error font-label-sm text-label-sm flex items-center gap-1 transition-colors" onclick="clearBasket()">
+<span class="material-symbols-outlined text-base">delete_sweep</span> Empty basket
+            </button>
+</div>
+<!-- Items Table Wrapper -->
+<div class="flex flex-col divide-y divide-surface-container" id="cart-item-container">
+<!-- Item 1: Mangoes -->
+<div class="py-space-md flex flex-col sm:flex-row sm:items-center justify-between gap-space-md cart-row" data-id="1" data-qty="2" data-unit-price="420">
+<div class="flex items-center gap-space-md">
+<img class="w-20 h-20 rounded-lg object-cover bg-surface-container-low flex-shrink-0" data-alt="Vibrant golden Sindh Chaunsa mangoes freshly picked in Pakistan, showcasing silky sunlit skin on a neutral porcelain presentation dish, captured with pristine editorial product lighting and organic greenery." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDcoLUnFGofSJSHX53XwzDiXiDaglWD4eP7C13RIxWPM1tLys1uPS-anDZQbJEQVc6rVLgiPiWsBR4-3h0stI2IjOuN5OjbL99_J25aLlHk4oONXnLu-4StA7uVUD4fKtWbLFCl-xVpqWmaaxbNv5by_R4ynBMfYGZ_ML_-BBh44uBCEWsP76JbPJ5k8MPjsWuAL_DZhS0csKx3yT-ubKWi052Y0DekiDT_8LKExXU"/>
+<div class="flex flex-col">
+<div class="flex items-center gap-1.5">
+<span class="bg-secondary-container text-on-secondary-container font-label-sm text-label-sm px-1.5 py-0.5 rounded font-bold">Sindh Orchard</span>
+<span class="font-label-sm text-label-sm text-primary font-semibold">Grade-A</span>
+</div>
+<h3 class="font-title-md text-title-md text-on-surface font-bold mt-0.5">Sindh Chaunsa Mangoes</h3>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Pack size: 1 kg (₨ 420 / kg)</span>
+</div>
+</div>
+<div class="flex items-center justify-between sm:justify-end gap-space-lg w-full sm:w-auto">
+<div class="flex items-center bg-surface-container-low rounded-lg p-1">
+<button class="w-8 h-8 flex items-center justify-center rounded text-on-surface hover:bg-surface-container-highest transition-colors font-bold text-lg" onclick="adjustQty(1, -1)">-</button>
+<span class="w-10 text-center font-label-md text-label-md font-bold item-qty">2</span>
+<button class="w-8 h-8 flex items-center justify-center rounded text-on-surface hover:bg-surface-container-highest transition-colors font-bold text-lg" onclick="adjustQty(1, 1)">+</button>
+</div>
+<div class="flex flex-col items-end min-w-[90px]">
+<span class="font-title-md text-title-md font-bold text-on-surface item-total">₨ 840</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">2 kg total</span>
+</div>
+<button class="p-1.5 text-on-surface-variant hover:text-error transition-colors rounded-lg hover:bg-surface-container-low" onclick="removeItem(1)" title="Remove Item">
+<span class="material-symbols-outlined text-lg">close</span>
+</button>
+</div>
+</div>
+<!-- Item 2: Milk -->
+<div class="py-space-md flex flex-col sm:flex-row sm:items-center justify-between gap-space-md cart-row" data-id="2" data-qty="3" data-unit-price="270">
+<div class="flex items-center gap-space-md">
+<img class="w-20 h-20 rounded-lg object-cover bg-surface-container-low flex-shrink-0" data-alt="Chilled glass bottles of pure whole pasteurized farmhouse milk with dew drops on surface, dairy farm morning aesthetic, soft natural daylight, pristine studio product shoot." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBt09YOmpaPKITy7OqaR490VqML0RMrSd2GLT9KFej4mgWtXbAy_UyfPIFeHYKCGeJZu-HS7SY73a6E8ojUXs82HisLurvY7w6PpfY1oLh3a8AyK4ZUzp55kpK74SOlW3ktlkcK_Knf5zaBVYdqfEeEzfQeWuzSgqOHXFvlmuMUcp2ohVeQ6LTVVNkYe8k2pcZuITRrSYLzWfe7QMEyIsH4GvqXMJj0DIjZ1XaxRkE"/>
+<div class="flex flex-col">
+<div class="flex items-center gap-1.5">
+<span class="bg-surface-container-high text-on-surface font-label-sm text-label-sm px-1.5 py-0.5 rounded font-bold">A2 Grass-Fed</span>
+</div>
+<h3 class="font-title-md text-title-md text-on-surface font-bold mt-0.5">Full Cream Pasteurized Milk</h3>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Bottle: 1 Litre (₨ 270 / L)</span>
+</div>
+</div>
+<div class="flex items-center justify-between sm:justify-end gap-space-lg w-full sm:w-auto">
+<div class="flex items-center bg-surface-container-low rounded-lg p-1">
+<button class="w-8 h-8 flex items-center justify-center rounded text-on-surface hover:bg-surface-container-highest transition-colors font-bold text-lg" onclick="adjustQty(2, -1)">-</button>
+<span class="w-10 text-center font-label-md text-label-md font-bold item-qty">3</span>
+<button class="w-8 h-8 flex items-center justify-center rounded text-on-surface hover:bg-surface-container-highest transition-colors font-bold text-lg" onclick="adjustQty(2, 1)">+</button>
+</div>
+<div class="flex flex-col items-end min-w-[90px]">
+<span class="font-title-md text-title-md font-bold text-on-surface item-total">₨ 810</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">3 bottles</span>
+</div>
+<button class="p-1.5 text-on-surface-variant hover:text-error transition-colors rounded-lg hover:bg-surface-container-low" onclick="removeItem(2)" title="Remove Item">
+<span class="material-symbols-outlined text-lg">close</span>
+</button>
+</div>
+</div>
+<!-- Item 3: Desi Eggs -->
+<div class="py-space-md flex flex-col sm:flex-row sm:items-center justify-between gap-space-md cart-row" data-id="3" data-qty="2" data-unit-price="390">
+<div class="flex items-center gap-space-md">
+<img class="w-20 h-20 rounded-lg object-cover bg-surface-container-low flex-shrink-0" data-alt="Rustic brown organic free-range country eggs presented in a natural woven straw basket with hay accents, warm organic farm lighting, premium grocer quality." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDSfZOBmuS9OV07fuU_9lLJJrOmKPXgdte7wBOcAGQ5LaOm1Ng1G6xAWYMxj-9o2chf_YhLFgmr6N5SiEAUQ88aFA4UbKLTLT4vB51jLkGNX9JDBjxIg7FptJ7gmLFXdFBfDm4VP4t5sn9F05IB5uCvcMBM4VMQUIuhIBwoQEexBZs5dlqYmW7n7MWkq-MEwHq8Nu4KUCVdM_v01sWJd_rFhcyvzkvcxGaci4a9mNA"/>
+<div class="flex flex-col">
+<div class="flex items-center gap-1.5">
+<span class="bg-primary-fixed-dim text-on-primary-fixed font-label-sm text-label-sm px-1.5 py-0.5 rounded font-bold">Free-Range Organic</span>
+</div>
+<h3 class="font-title-md text-title-md text-on-surface font-bold mt-0.5">Desi Golden Brown Eggs</h3>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Pack: 1 Dozen (₨ 390 / doz)</span>
+</div>
+</div>
+<div class="flex items-center justify-between sm:justify-end gap-space-lg w-full sm:w-auto">
+<div class="flex items-center bg-surface-container-low rounded-lg p-1">
+<button class="w-8 h-8 flex items-center justify-center rounded text-on-surface hover:bg-surface-container-highest transition-colors font-bold text-lg" onclick="adjustQty(3, -1)">-</button>
+<span class="w-10 text-center font-label-md text-label-md font-bold item-qty">2</span>
+<button class="w-8 h-8 flex items-center justify-center rounded text-on-surface hover:bg-surface-container-highest transition-colors font-bold text-lg" onclick="adjustQty(3, 1)">+</button>
+</div>
+<div class="flex flex-col items-end min-w-[90px]">
+<span class="font-title-md text-title-md font-bold text-on-surface item-total">₨ 780</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">24 eggs</span>
+</div>
+<button class="p-1.5 text-on-surface-variant hover:text-error transition-colors rounded-lg hover:bg-surface-container-low" onclick="removeItem(3)" title="Remove Item">
+<span class="material-symbols-outlined text-lg">close</span>
+</button>
+</div>
+</div>
+<!-- Item 4: Basmati Rice -->
+<div class="py-space-md flex flex-col sm:flex-row sm:items-center justify-between gap-space-md cart-row" data-id="4" data-qty="1" data-unit-price="1850">
+<div class="flex items-center gap-space-md">
+<img class="w-20 h-20 rounded-lg object-cover bg-surface-container-low flex-shrink-0" data-alt="Himalayan long-grain aged aromatic Basmati rice pouring into a handcrafted rustic jute sack, crisp high-definition culinary photo, warm studio ambience." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAYY6TfwbVDhDVnkAIeAy3vuD1xxtFfqtzg_wS9MvfemXftkjHoJ1TgyFsQ4ujZYDkEdiINfho1pR8EVfZh2Vktcr7e1dCKYDBnoOUb1NMT93Tv1PjLAX1xdpA1hZaA-Qe6vZaxpUNWCvRVG70eUOwpahc60oZV41wd5fN1BwRskvSRilWln-xOAKuxJJDQUIHlkD-9K2Au1kckI45EcFF6pcZXKYEa7mcsrGlShzo"/>
+<div class="flex flex-col">
+<div class="flex items-center gap-1.5">
+<span class="bg-surface-container-high text-on-surface font-label-sm text-label-sm px-1.5 py-0.5 rounded font-bold">2-Year Aged</span>
+</div>
+<h3 class="font-title-md text-title-md text-on-surface font-bold mt-0.5">Super Kernel Aged Basmati Rice</h3>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Cloth sack: 5 kg (₨ 370 / kg)</span>
+</div>
+</div>
+<div class="flex items-center justify-between sm:justify-end gap-space-lg w-full sm:w-auto">
+<div class="flex items-center bg-surface-container-low rounded-lg p-1">
+<button class="w-8 h-8 flex items-center justify-center rounded text-on-surface hover:bg-surface-container-highest transition-colors font-bold text-lg" onclick="adjustQty(4, -1)">-</button>
+<span class="w-10 text-center font-label-md text-label-md font-bold item-qty">1</span>
+<button class="w-8 h-8 flex items-center justify-center rounded text-on-surface hover:bg-surface-container-highest transition-colors font-bold text-lg" onclick="adjustQty(4, 1)">+</button>
+</div>
+<div class="flex flex-col items-end min-w-[90px]">
+<span class="font-title-md text-title-md font-bold text-on-surface item-total">₨ 1,850</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">5 kg sack</span>
+</div>
+<button class="p-1.5 text-on-surface-variant hover:text-error transition-colors rounded-lg hover:bg-surface-container-low" onclick="removeItem(4)" title="Remove Item">
+<span class="material-symbols-outlined text-lg">close</span>
+</button>
+</div>
+</div>
+</div>
+<!-- Empty State (Hidden by default) -->
+<div class="hidden py-space-xl flex-col items-center justify-center text-center" id="empty-state">
+<span class="material-symbols-outlined text-6xl text-outline-variant">remove_shopping_cart</span>
+<p class="font-headline-sm text-headline-sm text-on-surface font-semibold mt-space-sm">Your basket is currently empty</p>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-sm mt-1">Explore our morning harvests, organic pantry staples, and chilled cold-pressed juices.</p>
+<a class="mt-space-md bg-primary hover:bg-tertiary text-on-primary font-label-md text-label-md px-space-lg py-space-xs rounded-xl transition-all" data-path="home" href="#">Start Shopping</a>
+</div>
+</div>
+<!-- Impulse Add-ons Ribbon -->
+<div class="bg-surface-container-low p-space-md rounded-xl flex flex-col gap-space-sm">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-primary text-xl">bolt</span>
+<span class="font-title-md text-title-md font-bold text-on-surface">You May Also Need</span>
+</div>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Quick single-tap additions</span>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-3 gap-space-sm">
+<div class="bg-surface-container-lowest p-space-sm rounded-lg flex items-center justify-between gap-space-xs hover:shadow-sm transition-shadow">
+<div class="flex items-center gap-space-xs">
+<img class="w-12 h-12 rounded object-cover flex-shrink-0" data-alt="Fresh juicy yellow lemons with green leaves in a bright contemporary kitchen setup, crisp lighting, high resolution organic food photography." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDEsUA5PcuU5HPoFireTTWLZxkwR0cHO-_Ezl97mPDsnmUP11qVk7ZygUScrKyI9Aj7jBkSsCuDPDWzJCPB36IgUDom28F6AoAVCoSyuv-NEY4sRKFhfjoI-AiISM1ct89hePm26sxMbhAlay2Pjc6E5FSJWPtbEd5loTsKHYHxVBkWZRzE5Sjw-HZYR0vbJ-UbHzuBMAyejj4vjz7754U5BUAP_gmxqU4nyIarPro"/>
+<div class="flex flex-col">
+<span class="font-label-md text-label-md font-semibold text-on-surface truncate">Juicy Lemons</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">₨ 80 / 250g</span>
+</div>
+</div>
+<button class="bg-surface-container hover:bg-primary hover:text-on-primary text-primary w-8 h-8 rounded-lg flex items-center justify-center font-bold text-lg transition-colors" onclick="addQuickItem('Juicy Lemons (250g)', 80)">+</button>
+</div>
+<div class="bg-surface-container-lowest p-space-sm rounded-lg flex items-center justify-between gap-space-xs hover:shadow-sm transition-shadow">
+<div class="flex items-center gap-space-xs">
+<img class="w-12 h-12 rounded object-cover flex-shrink-0" data-alt="Raw organic unrefined brown cane sugar crystals in a modern ceramic spice cup, warm earthy natural tone, high-end organic kitchenware." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBS7rRFrpTrDYxiLwa9InkxPWxTUMOs7uEJugJ2tqJVCLUE3boJT4gSv0afFW3nArtJoXjMnKNoERG7G3gT_WlKqLqrGWPfYrxmmPkIlW2D7DVnBO2xZaG3iABJ1io1pUn7PC4-ZIcRkiLtrJwq2UntOiJZwYKlNxDLAsH6MkfKa6bwn5mAyQ9KGI62h-sEhzu9ofaM1qGOTgtDCrgAP2QW7Xh4dH5yB1peEPZdMos"/>
+<div class="flex flex-col">
+<span class="font-label-md text-label-md font-semibold text-on-surface truncate">Organic Brown Sugar</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">₨ 180 / 500g</span>
+</div>
+</div>
+<button class="bg-surface-container hover:bg-primary hover:text-on-primary text-primary w-8 h-8 rounded-lg flex items-center justify-center font-bold text-lg transition-colors" onclick="addQuickItem('Organic Brown Sugar (500g)', 180)">+</button>
+</div>
+<div class="bg-surface-container-lowest p-space-sm rounded-lg flex items-center justify-between gap-space-xs hover:shadow-sm transition-shadow">
+<div class="flex items-center gap-space-xs">
+<img class="w-12 h-12 rounded object-cover flex-shrink-0" data-alt="Crisp freshly harvested hydroponic mint leaves with gentle dew droplets, pure white minimalist backdrop, luxury botanical grocery concept." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDXkGAHcgdHaWnpFzQpOwa3GApVWqJHaEABXVLgSkch4xg8YMj-APK1y_JzA-JnoxLw3wrhNK6w42yskicwLO60ZlU3HqmG7K8A0ikdLoYnfp30Y_thodDK2fLTO0godNudY7VL1ej8Tk68yGZZb5CKHt5sR6TBZqyvTxwQ8jPxjHPguHnfHyFPSwAZYeqdJ5v2kMkYmXl5n4zt2g3-qlzb6uWk-BHewRM0i94Zu18"/>
+<div class="flex flex-col">
+<span class="font-label-md text-label-md font-semibold text-on-surface truncate">Fresh Hydro Mint</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">₨ 40 / Bunch</span>
+</div>
+</div>
+<button class="bg-surface-container hover:bg-primary hover:text-on-primary text-primary w-8 h-8 rounded-lg flex items-center justify-center font-bold text-lg transition-colors" onclick="addQuickItem('Fresh Hydro Mint (Bunch)', 40)">+</button>
+</div>
+</div>
+</div>
+<!-- Delivery Slot & Scheduling Module -->
+<div class="bg-surface-container-lowest rounded-xl p-space-md md:p-space-lg shadow-sm flex flex-col gap-space-md">
+<div class="flex items-center justify-between pb-space-sm border-b border-surface-container">
+<div class="flex items-center gap-space-sm">
+<span class="material-symbols-outlined text-primary text-2xl">schedule</span>
+<h2 class="font-headline-sm text-headline-sm text-on-surface font-bold">Dispatch Slot &amp; Destination</h2>
+</div>
+<span class="bg-secondary-container text-on-secondary-container px-space-sm py-0.5 rounded font-label-sm text-label-sm font-bold">Academic Demo Simulator</span>
+</div>
+<!-- Academic Demo Notice Callout -->
+<div class="bg-surface-container-low p-space-sm rounded-lg flex items-center gap-space-sm text-on-surface-variant">
+<span class="material-symbols-outlined text-primary text-lg">verified_user</span>
+<p class="font-body-sm text-body-sm">
+<strong class="text-on-surface">Demonstration Notice:</strong> Live time-slots simulate our temperature-controlled fleet dispatch across Karachi, Lahore &amp; Islamabad hubs.
+            </p>
+</div>
+<!-- City & Sector Selector -->
+<div class="grid grid-cols-1 md:grid-cols-2 gap-space-md">
+<div class="flex flex-col gap-1">
+<label class="font-label-md text-label-md font-bold text-on-surface">City Dispatch Hub</label>
+<select class="w-full bg-surface-container-low text-on-surface font-body-md text-body-md rounded-xl px-space-md py-space-sm focus:outline-none focus:ring-2 focus:ring-primary" id="city-select" onchange="updateAreas()">
+<option selected="" value="karachi">Karachi (Southern Coastal Fleet)</option>
+<option value="lahore">Lahore (Punjab Central Fleet)</option>
+<option value="islamabad">Islamabad / Rawalpindi (Capital Hub)</option>
+</select>
+</div>
+<div class="flex flex-col gap-1">
+<label class="font-label-md text-label-md font-bold text-on-surface">Designated Area / Sector</label>
+<select class="w-full bg-surface-container-low text-on-surface font-body-md text-body-md rounded-xl px-space-md py-space-sm focus:outline-none focus:ring-2 focus:ring-primary" id="area-select">
+<option selected="" value="dha-phase-6">DHA Phase 6 &amp; Phase 8</option>
+<option value="clifton-block-4">Clifton (Blocks 1-9)</option>
+<option value="pechs">PECHS &amp; Tipu Sultan Road</option>
+<option value="gulshan">Gulshan-e-Iqbal (Blocks 1-13)</option>
+</select>
+</div>
+</div>
+<!-- Delivery Speed Selection -->
+<div class="flex flex-col gap-space-xs mt-space-xs">
+<span class="font-label-md text-label-md font-bold text-on-surface">Select Delivery Mode</span>
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-space-sm">
+<label class="cursor-pointer bg-surface-container-low hover:bg-surface-container-high rounded-xl p-space-md flex items-start gap-space-sm transition-all" id="speed-express-card">
+<input checked="" class="mt-1 accent-primary" name="delivery_speed" onchange="handleSpeedChange('express')" type="radio" value="express"/>
+<div class="flex flex-col">
+<div class="flex items-center gap-space-xs">
+<span class="font-title-md text-title-md font-bold text-on-surface">Express 45-Minute</span>
+<span class="bg-primary text-on-primary font-label-sm text-label-sm px-1.5 py-0.2 rounded-full font-bold">Popular</span>
+</div>
+<span class="font-body-sm text-body-sm text-on-surface-variant mt-1">Direct cold-chain rider dispatch. Best for quick dinners &amp; breakfasts.</span>
+<span class="font-label-md text-label-md font-bold text-primary mt-2">₨ 150 <span class="text-on-surface-variant font-normal">(Free for orders &gt; ₨ 2,500)</span></span>
+</div>
+</label>
+<label class="cursor-pointer bg-surface-container-low hover:bg-surface-container-high rounded-xl p-space-md flex items-start gap-space-sm transition-all" id="speed-scheduled-card">
+<input class="mt-1 accent-primary" name="delivery_speed" onchange="handleSpeedChange('scheduled')" type="radio" value="scheduled"/>
+<div class="flex flex-col">
+<div class="flex items-center gap-space-xs">
+<span class="font-title-md text-title-md font-bold text-on-surface">Standard Scheduled Slot</span>
+</div>
+<span class="font-body-sm text-body-sm text-on-surface-variant mt-1">Consolidated eco-route delivery van (sample option).</span>
+<span class="font-label-md text-label-md font-bold text-primary mt-2">Free <span class="text-on-surface-variant font-normal">Simulated 2-hour window</span></span>
+</div>
+</label>
+</div>
+</div>
+<!-- Date & Time Slot Picker -->
+<div class="flex flex-col gap-space-sm pt-space-xs">
+<span class="font-label-md text-label-md font-bold text-on-surface">Available Delivery Window</span>
+<div class="flex items-center gap-space-sm">
+<button class="date-btn flex-1 py-space-sm bg-primary text-on-primary rounded-xl font-label-md text-label-md font-bold transition-all text-center" onclick="selectDate(this, 'today')" type="button">
+                Today, 24 Oct
+              </button>
+<button class="date-btn flex-1 py-space-sm bg-surface-container-low text-on-surface rounded-xl font-label-md text-label-md font-medium hover:bg-surface-container-high transition-all text-center" onclick="selectDate(this, 'tomorrow')" type="button">
+                Tomorrow, 25 Oct
+              </button>
+<button class="date-btn flex-1 py-space-sm bg-surface-container-low text-on-surface rounded-xl font-label-md text-label-md font-medium hover:bg-surface-container-high transition-all text-center" onclick="selectDate(this, 'weekend')" type="button">
+                Saturday, 26 Oct
+              </button>
+</div>
+<!-- Slots Grid -->
+<div class="grid grid-cols-2 md:grid-cols-4 gap-space-xs mt-space-xs" id="slot-grid">
+<button class="slot-btn py-space-sm px-space-xs rounded-lg font-label-sm text-label-sm font-bold bg-primary text-on-primary transition-all text-center" onclick="selectSlot(this)" type="button">
+                10:00 AM - 12:00 PM
+              </button>
+<button class="slot-btn py-space-sm px-space-xs rounded-lg font-label-sm text-label-sm font-semibold bg-surface-container-low text-on-surface hover:bg-surface-container-high transition-all text-center" onclick="selectSlot(this)" type="button">
+                02:00 PM - 04:00 PM
+              </button>
+<button class="slot-btn py-space-sm px-space-xs rounded-lg font-label-sm text-label-sm font-semibold bg-surface-container-low text-on-surface hover:bg-surface-container-high transition-all text-center" onclick="selectSlot(this)" type="button">
+                06:00 PM - 08:00 PM
+              </button>
+<button class="slot-btn py-space-sm px-space-xs rounded-lg font-label-sm text-label-sm font-semibold bg-surface-container-low text-on-surface hover:bg-surface-container-high transition-all text-center" onclick="selectSlot(this)" type="button">
+                08:00 PM - 10:00 PM
+              </button>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant flex items-center gap-1 mt-1">
+<span class="material-symbols-outlined text-sm text-primary">eco</span>
+              Packaging details are illustrative.
+            </p>
+</div>
+</div>
+</div>
+<!-- Right Column: Sticky Smart Order Summary (4 cols) -->
+<div class="lg:col-span-4 flex flex-col gap-space-md sticky top-48">
+<div class="bg-surface-container-lowest rounded-xl p-space-md md:p-space-lg shadow-sm flex flex-col gap-space-md">
+<div class="flex items-center justify-between pb-space-sm border-b border-surface-container">
+<h2 class="font-headline-sm text-headline-sm text-on-surface font-bold">Order Summary</h2>
+<span class="font-label-sm text-label-sm text-primary font-bold">4 Items</span>
+</div>
+<!-- Promo Code Bar -->
+<div class="flex flex-col gap-1">
+<label class="font-label-sm text-label-sm font-semibold text-on-surface-variant">Promotional Voucher</label>
+<div class="flex items-center gap-space-xs">
+<div class="relative flex-1">
+<input class="w-full bg-surface-container-low font-label-md text-label-md text-on-surface font-bold uppercase rounded-lg px-space-sm py-2 focus:outline-none focus:ring-2 focus:ring-primary pl-8" id="promo-input" type="text" value="FRESH20"/>
+<span class="material-symbols-outlined absolute left-2 top-2.5 text-base text-primary">sell</span>
+</div>
+<button class="bg-surface-container hover:bg-surface-container-high text-on-surface font-label-sm text-label-sm font-bold px-space-md py-2 rounded-lg transition-colors" onclick="applyPromo()">Apply</button>
+</div>
+<div class="flex items-center gap-1 text-primary font-label-sm text-label-sm mt-1" id="promo-status">
+<span class="material-symbols-outlined text-sm">check_circle</span>
+<span>20% Student / Demo Discount Applied</span>
+</div>
+</div>
+<!-- Price Ledger Breakdown -->
+<div class="flex flex-col gap-space-xs pt-space-xs font-body-md text-body-md text-on-surface-variant">
+<div class="flex items-center justify-between">
+<span>Items Subtotal</span>
+<span class="font-semibold text-on-surface" id="summary-subtotal">₨ 4,280</span>
+</div>
+<div class="flex items-center justify-between text-primary">
+<span class="flex items-center gap-1">
+<span>First-Order / Demo (20%)</span>
+<span class="material-symbols-outlined text-sm">info</span>
+</span>
+<span class="font-bold" id="summary-discount">- ₨ 856</span>
+</div>
+<div class="flex items-center justify-between">
+<span>Eco-friendly Box &amp; Gel Ice</span>
+<span class="text-primary font-semibold">FREE</span>
+</div>
+<div class="flex items-center justify-between">
+<span class="flex items-center gap-1">
+<span>Express Dispatch Fee</span>
+<span class="text-xs bg-surface-container px-1 py-0.5 rounded text-on-surface-variant">Wave Promo</span>
+</span>
+<div class="flex items-center gap-1.5">
+<span class="line-through text-outline font-body-sm text-body-sm">₨ 150</span>
+<span class="text-primary font-bold" id="summary-delivery">FREE</span>
+</div>
+</div>
+<div class="border-t border-surface-container my-space-xs"></div>
+<div class="flex items-baseline justify-between text-on-surface">
+<div class="flex flex-col">
+<span class="font-title-lg text-title-lg font-bold">Estimated Total</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Inclusive of all local sales tax</span>
+</div>
+<span class="font-display-mobile text-display-mobile font-bold text-primary" id="summary-total">₨ 3,424</span>
+</div>
+</div>
+<!-- Checkout Primary Button -->
+<div class="flex flex-col gap-space-xs pt-space-xs">
+<button class="w-full bg-primary hover:bg-tertiary text-on-primary font-title-md text-title-md font-bold py-space-sm px-space-md rounded-xl shadow-[0_4px_16px_rgba(21,128,61,0.25)] flex items-center justify-center gap-space-xs transition-all transform active:scale-98" onclick="simulateCheckout()">
+<span>Proceed to Mock Checkout</span>
+<span class="material-symbols-outlined text-xl">arrow_forward</span>
+</button>
+<a class="w-full py-2 text-center font-label-md text-label-md font-semibold text-primary hover:text-tertiary transition-colors flex items-center justify-center gap-1" data-path="home" href="#">
+<span class="material-symbols-outlined text-sm">west</span>
+<span>Continue Shopping fresh aisles</span>
+</a>
+</div>
+<!-- Trust Badges & Guarantees -->
+<div class="bg-surface-container-low p-space-sm rounded-lg flex flex-col gap-2">
+<div class="flex items-center gap-space-xs text-on-surface-variant">
+<span class="material-symbols-outlined text-primary text-base">verified</span>
+<span class="font-label-sm text-label-sm font-semibold">Sample replacement policy</span>
+</div>
+<div class="flex items-center gap-space-xs text-on-surface-variant">
+<span class="material-symbols-outlined text-primary text-base">nest_eco_leaf</span>
+<span class="font-label-sm text-label-sm font-semibold">Pantry range (sample)</span>
+</div>
+<div class="flex items-center gap-space-xs text-on-surface-variant">
+<span class="material-symbols-outlined text-primary text-base">lock</span>
+<span class="font-label-sm text-label-sm font-semibold">Simulated checkout, no real payment</span>
+</div>
+</div>
+</div>
+<!-- Academic Capstone Card Note -->
+<div class="p-space-sm bg-surface-container-low rounded-lg text-center text-on-surface-variant">
+<p class="font-body-sm text-body-sm">
+            FreshBasket is configured as an academic web standard capstone project with live state calculation and responsive grocery checkout flows.
+          </p>
+</div>
+</div>
+</div>
+</div>
+<!-- Simulated Checkout Success Modal (Hidden by Default) -->
+<div class="fixed inset-0 z-50 bg-black/50 backdrop-blur-sm hidden items-center justify-center p-margin" id="checkout-modal">
+<div class="bg-surface-container-lowest max-w-md w-full rounded-2xl p-space-xl shadow-2xl flex flex-col items-center text-center gap-space-md animate-in fade-in zoom-in duration-200">
+<div class="w-16 h-16 rounded-full bg-primary-fixed flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-4xl">task_alt</span>
+</div>
+<div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface font-bold">Simulated Order Placed!</h3>
+<p class="font-body-md text-body-md text-on-surface-variant mt-1">Order #FB-84291 has been scheduled for live dispatch testing.</p>
+</div>
+<div class="w-full bg-surface-container-low p-space-sm rounded-xl text-left flex flex-col gap-1 text-on-surface">
+<div class="flex justify-between font-label-sm text-label-sm">
+<span class="text-on-surface-variant">Slot:</span>
+<span class="font-bold" id="modal-slot">Today, 10:00 AM - 12:00 PM</span>
+</div>
+<div class="flex justify-between font-label-sm text-label-sm">
+<span class="text-on-surface-variant">Location:</span>
+<span class="font-bold" id="modal-loc">DHA Phase 6, Karachi</span>
+</div>
+<div class="flex justify-between font-label-sm text-label-sm">
+<span class="text-on-surface-variant">Amount Due:</span>
+<span class="font-bold text-primary" id="modal-amount">₨ 3,424</span>
+</div>
+</div>
+<button class="w-full bg-primary hover:bg-tertiary text-on-primary py-space-sm rounded-xl font-label-md text-label-md font-bold transition-all" onclick="closeModal()">Back to Cart Demonstration</button>
+</div>
+</div>
+<!-- Interactive JavaScript Logic -->
+<script>
+    const areaMap = {
+      karachi: [
+        { val: 'dha-phase-6', label: 'DHA Phase 6 & Phase 8' },
+        { val: 'clifton-block-4', label: 'Clifton (Blocks 1-9)' },
+        { val: 'pechs', label: 'PECHS & Tipu Sultan Road' },
+        { val: 'gulshan', label: 'Gulshan-e-Iqbal (Blocks 1-13)' }
+      ],
+      lahore: [
+        { val: 'gulberg-3', label: 'Gulberg II & III / MM Alam' },
+        { val: 'dha-phase-5-lhr', label: 'DHA Phase 5 & Phase 6' },
+        { val: 'model-town', label: 'Model Town (Blocks A-K)' },
+        { val: 'cantt-lhr', label: 'Lahore Cantt & Cavalry Ground' }
+      ],
+      islamabad: [
+        { val: 'f-6-f-7', label: 'F-6, F-7 & Blue Area' },
+        { val: 'e-7-f-8', label: 'E-7, F-8 & Kohsar' },
+        { val: 'bahria-town-rawalpindi', label: 'Bahria Town Phases 1-8' },
+        { val: 'dha-phase-2-isb', label: 'DHA Phase 2 Islamabad' }
+      ]
+    };
+
+    function updateAreas() {
+      const city = document.getElementById('city-select').value;
+      const areaSelect = document.getElementById('area-select');
+      areaSelect.innerHTML = '';
+      areaMap[city].forEach(item => {
+        const opt = document.createElement('option');
+        opt.value = item.val;
+        opt.textContent = item.label;
+        areaSelect.appendChild(opt);
+      });
+    }
+
+    let discountRate = 0.20; // 20% default voucher
+    let deliveryFee = 0; // Waived promotionally
+
+    function recalculateTotal() {
+      const rows = document.querySelectorAll('.cart-row');
+      let subtotal = 0;
+      let totalCount = 0;
+
+      rows.forEach(row => {
+        const qty = parseInt(row.getAttribute('data-qty'), 10);
+        const unitPrice = parseInt(row.getAttribute('data-unit-price'), 10);
+        const lineTotal = qty * unitPrice;
+        subtotal += lineTotal;
+        totalCount += qty;
+
+        const qtyEl = row.querySelector('.item-qty');
+        const totalEl = row.querySelector('.item-total');
+        if (qtyEl) qtyEl.textContent = qty;
+        if (totalEl) totalEl.textContent = '₨ ' + lineTotal.toLocaleString();
+      });
+
+      const badge = document.getElementById('items-badge');
+      if (badge) badge.textContent = totalCount + ' items';
+
+      const subtotalEl = document.getElementById('summary-subtotal');
+      const discountEl = document.getElementById('summary-discount');
+      const totalEl = document.getElementById('summary-total');
+
+      const discountAmount = Math.round(subtotal * discountRate);
+      const grandTotal = Math.max(0, subtotal - discountAmount + deliveryFee);
+
+      if (subtotalEl) subtotalEl.textContent = '₨ ' + subtotal.toLocaleString();
+      if (discountEl) discountEl.textContent = '- ₨ ' + discountAmount.toLocaleString();
+      if (totalEl) totalEl.textContent = '₨ ' + grandTotal.toLocaleString();
+
+      if (rows.length === 0) {
+        document.getElementById('empty-state').classList.remove('hidden');
+        document.getElementById('cart-item-container').classList.add('hidden');
+      }
+    }
+
+    function adjustQty(id, delta) {
+      const row = document.querySelector(`.cart-row[data-id="${id}"]`);
+      if (!row) return;
+      let currentQty = parseInt(row.getAttribute('data-qty'), 10);
+      let newQty = currentQty + delta;
+      if (newQty <= 0) {
+        removeItem(id);
+        return;
+      }
+      row.setAttribute('data-qty', newQty);
+      recalculateTotal();
+    }
+
+    function removeItem(id) {
+      const row = document.querySelector(`.cart-row[data-id="${id}"]`);
+      if (row) {
+        row.remove();
+        recalculateTotal();
+      }
+    }
+
+    function clearBasket() {
+      const container = document.getElementById('cart-item-container');
+      container.innerHTML = '';
+      recalculateTotal();
+    }
+
+    function addQuickItem(name, price) {
+      const container = document.getElementById('cart-item-container');
+      const randomId = Date.now();
+      const div = document.createElement('div');
+      div.className = "py-space-md flex flex-col sm:flex-row sm:items-center justify-between gap-space-md cart-row";
+      div.setAttribute('data-id', randomId);
+      div.setAttribute('data-unit-price', price);
+      div.setAttribute('data-qty', '1');
+      div.innerHTML = `
+        <div class="flex items-center gap-space-md">
+          <div class="w-20 h-20 rounded-lg bg-surface-container flex items-center justify-center text-primary flex-shrink-0">
+            <span class="material-symbols-outlined text-3xl">grocery</span>
+          </div>
+          <div class="flex flex-col">
+            <div class="flex items-center gap-1.5">
+              <span class="bg-primary-fixed text-on-primary-fixed font-label-sm text-label-sm px-1.5 py-0.5 rounded font-bold">Impulse Add</span>
+            </div>
+            <h3 class="font-title-md text-title-md text-on-surface font-bold mt-0.5">${name}</h3>
+            <span class="font-body-sm text-body-sm text-on-surface-variant">₨ ${price} unit cost</span>
+          </div>
+        </div>
+        <div class="flex items-center justify-between sm:justify-end gap-space-lg w-full sm:w-auto">
+          <div class="flex items-center bg-surface-container-low rounded-lg p-1">
+            <button onclick="adjustQty(${randomId}, -1)" class="w-8 h-8 flex items-center justify-center rounded text-on-surface hover:bg-surface-container-highest transition-colors font-bold text-lg">-</button>
+            <span class="w-10 text-center font-label-md text-label-md font-bold item-qty">1</span>
+            <button onclick="adjustQty(${randomId}, 1)" class="w-8 h-8 flex items-center justify-center rounded text-on-surface hover:bg-surface-container-highest transition-colors font-bold text-lg">+</button>
+          </div>
+          <div class="flex flex-col items-end min-w-[90px]">
+            <span class="font-title-md text-title-md font-bold text-on-surface item-total">₨ ${price}</span>
+            <span class="font-body-sm text-body-sm text-on-surface-variant">1 unit</span>
+          </div>
+          <button onclick="removeItem(${randomId})" class="p-1.5 text-on-surface-variant hover:text-error transition-colors rounded-lg hover:bg-surface-container-low" title="Remove Item">
+            <span class="material-symbols-outlined text-lg">close</span>
+          </button>
+        </div>
+      `;
+      container.appendChild(div);
+      recalculateTotal();
+    }
+
+    function selectDate(btn, day) {
+      document.querySelectorAll('.date-btn').forEach(b => {
+        b.className = 'date-btn flex-1 py-space-sm bg-surface-container-low text-on-surface rounded-xl font-label-md text-label-md font-medium hover:bg-surface-container-high transition-all text-center';
+      });
+      btn.className = 'date-btn flex-1 py-space-sm bg-primary text-on-primary rounded-xl font-label-md text-label-md font-bold transition-all text-center';
+    }
+
+    let activeSlotText = '10:00 AM - 12:00 PM';
+    function selectSlot(btn) {
+      document.querySelectorAll('.slot-btn').forEach(b => {
+        b.className = 'slot-btn py-space-sm px-space-xs rounded-lg font-label-sm text-label-sm font-semibold bg-surface-container-low text-on-surface hover:bg-surface-container-high transition-all text-center';
+      });
+      btn.className = 'slot-btn py-space-sm px-space-xs rounded-lg font-label-sm text-label-sm font-bold bg-primary text-on-primary transition-all text-center';
+      activeSlotText = btn.textContent.trim();
+    }
+
+    function handleSpeedChange(speed) {
+      const deliveryEl = document.getElementById('summary-delivery');
+      if (speed === 'express') {
+        deliveryFee = 0; // kept zero via simulated discount
+        if (deliveryEl) deliveryEl.textContent = 'FREE';
+      } else {
+        deliveryFee = 0;
+        if (deliveryEl) deliveryEl.textContent = 'FREE';
+      }
+      recalculateTotal();
+    }
+
+    function applyPromo() {
+      const code = document.getElementById('promo-input').value.trim().toUpperCase();
+      const statusEl = document.getElementById('promo-status');
+      if (code === 'FRESH20' || code === 'DEMO20') {
+        discountRate = 0.20;
+        statusEl.innerHTML = `<span class="material-symbols-outlined text-sm">check_circle</span><span>20% Discount Activated</span>`;
+        statusEl.className = 'flex items-center gap-1 text-primary font-label-sm text-label-sm mt-1';
+      } else if (code === 'HALFOFF') {
+        discountRate = 0.50;
+        statusEl.innerHTML = `<span class="material-symbols-outlined text-sm">check_circle</span><span>50% Special Project Voucher Applied</span>`;
+        statusEl.className = 'flex items-center gap-1 text-primary font-label-sm text-label-sm mt-1';
+      } else {
+        discountRate = 0;
+        statusEl.innerHTML = `<span class="material-symbols-outlined text-sm">error</span><span>Invalid Voucher Code. Use FRESH20</span>`;
+        statusEl.className = 'flex items-center gap-1 text-error font-label-sm text-label-sm mt-1';
+      }
+      recalculateTotal();
+    }
+
+    function simulateCheckout() {
+      const areaEl = document.getElementById('area-select');
+      const locText = areaEl ? areaEl.options[areaEl.selectedIndex].text : 'Karachi Hub';
+      const totText = document.getElementById('summary-total').textContent;
+      
+      document.getElementById('modal-slot').textContent = 'Today, ' + activeSlotText;
+      document.getElementById('modal-loc').textContent = locText;
+      document.getElementById('modal-amount').textContent = totText;
+      
+      const modal = document.getElementById('checkout-modal');
+      modal.classList.remove('hidden');
+      modal.classList.add('flex');
+    }
+
+    function closeModal() {
+      const modal = document.getElementById('checkout-modal');
+      modal.classList.remove('flex');
+      modal.classList.add('hidden');
+    }
+  </script>
+</div></main><footer class="w-full bg-surface-container-lowest text-on-surface mt-space-xl"><div class="bg-surface-container-low py-space-lg"><div class="max-w-[1360px] mx-auto px-margin md:px-margin-desktop grid grid-cols-1 md:grid-cols-4 gap-gutter"><div class="flex items-start gap-space-sm"><span class="material-symbols-outlined text-primary text-3xl">local_shipping</span><div><div class="font-title-md text-title-md text-on-surface">60-Minute Rapid Delivery</div><div class="font-body-sm text-body-sm text-on-surface-variant mt-1">Temperature-controlled fleet across Karachi, Lahore &amp; Islamabad hubs.</div></div></div><div class="flex items-start gap-space-sm"><span class="material-symbols-outlined text-primary text-3xl">spa</span><div><div class="font-title-md text-title-md text-on-surface">Sample quality promise</div><div class="font-body-sm text-body-sm text-on-surface-variant mt-1">Illustrative description for this demo; real quality standards would be set by the brand.</div></div></div><div class="flex items-start gap-space-sm"><span class="material-symbols-outlined text-primary text-3xl">lock</span><div><div class="font-title-md text-title-md text-on-surface">Simulated Secure Checkout</div><div class="font-body-sm text-body-sm text-on-surface-variant mt-1">Credit Card, Raast QR, JazzCash, EasyPaisa, &amp; Cash on Delivery.</div></div></div><div class="flex items-start gap-space-sm"><span class="material-symbols-outlined text-primary text-3xl">published_with_changes</span><div><div class="font-title-md text-title-md text-on-surface">Sample Refund Policy</div><div class="font-body-sm text-body-sm text-on-surface-variant mt-1">Sample replacement policy; real terms would be set by the brand.</div></div></div></div></div><div class="max-w-[1360px] mx-auto px-margin md:px-margin-desktop py-space-xl grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-gutter"><div class="lg:col-span-2 flex flex-col gap-space-sm pr-space-lg"><div class="flex items-center gap-space-sm"><img alt="FreshBasket Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD8kuDv_lk08UYzRVhJIC0-vvsJFXpEryEuJFwK4K7IffVsg_lVjVUYZGG06HRG3IavYVYOQuK2NDxvtmBtzULEN7p8IAdrLRG12nwdJY-15gk8Hidn6Qec7TW_aMTEaedMuniH2EFgd0ppEGSnRf4t_VRykUufEre242mvYCt66O4iNMNOOqetN9b-2qSTNB0tPDzjUSO4LUAJd4K1ixfdcBdCDfBEd_k8x9ZQf2Y"/><span class="font-headline-md text-headline-md text-primary font-bold tracking-tight">FreshBasket</span></div><p class="font-body-md text-body-md text-on-surface-variant max-w-md">Pakistan's pioneering premium online grocery experience. Committed to empowering local hydroponic &amp; organic growers, providing clean nutrition, and seamless everyday retail convenience.</p><div class="flex items-center gap-space-sm mt-space-sm"><span class="bg-surface-container-high text-on-surface px-space-sm py-1 rounded font-label-sm text-label-sm font-semibold">DHA Clifton</span><span class="bg-surface-container-high text-on-surface px-space-sm py-1 rounded font-label-sm text-label-sm font-semibold">Gulberg Lahore</span><span class="bg-surface-container-high text-on-surface px-space-sm py-1 rounded font-label-sm text-label-sm font-semibold">F-7 Islamabad</span><span class="bg-surface-container-high text-on-surface px-space-sm py-1 rounded font-label-sm text-label-sm font-semibold">Bahria Town</span></div></div><div><div class="font-title-md text-title-md text-on-surface mb-space-sm">Produce Categories</div><ul class="space-y-space-xs font-body-sm text-body-sm text-on-surface-variant"><li><a class="hover:text-primary transition-colors" data-path="fresh-fruits" href="#">Exotic &amp; Local Fruits</a></li><li><a class="hover:text-primary transition-colors" data-path="fresh-vegetables" href="#">Organic Leafy Greens</a></li><li><a class="hover:text-primary transition-colors" data-path="dairy-and-eggs" href="#">Farm Butter &amp; Artisan Cheese</a></li><li><a class="hover:text-primary transition-colors" data-path="meat-and-seafood" href="#">Grass-Fed Mutton &amp; Halal Cuts</a></li><li><a class="hover:text-primary transition-colors" data-path="organic-farm" href="#">Stoneground Flours &amp; Honey</a></li></ul></div><div><div class="font-title-md text-title-md text-on-surface mb-space-sm">Customer Care &amp; Support</div><ul class="space-y-space-xs font-body-sm text-body-sm text-on-surface-variant"><li><a class="hover:text-primary transition-colors" data-path="faq-and-help" href="#">Track Live Dispatch</a></li><li><a class="hover:text-primary transition-colors" data-path="faq-and-help" href="#">Quality &amp; Refund Policy</a></li><li><a class="hover:text-primary transition-colors" data-path="faq-and-help" href="#">Packaging Recycling Drive</a></li><li><a class="hover:text-primary transition-colors" data-path="delivery-zones" href="#">Delivery Zones &amp; Timings</a></li><li><a class="hover:text-primary transition-colors" href="tel:+922111137374">WhatsApp Helpline (24/7)</a></li></ul></div><div><div class="font-title-md text-title-md text-on-surface mb-space-sm">Simulated Payments</div><p class="font-body-sm text-body-sm text-on-surface-variant mb-space-sm">Accepted mock checkout channels for academic showcase.</p><div class="grid grid-cols-2 gap-space-xs font-label-sm text-label-sm"><div class="bg-surface-container-low p-2 rounded text-center font-bold text-on-surface-variant">VISA / MC</div><div class="bg-surface-container-low p-2 rounded text-center font-bold text-on-surface-variant">Raast Instant</div><div class="bg-surface-container-low p-2 rounded text-center font-bold text-on-surface-variant">EasyPaisa</div><div class="bg-surface-container-low p-2 rounded text-center font-bold text-on-surface-variant">Cash On Box</div></div></div></div><div class="bg-surface-container-low py-space-md"><div class="max-w-[1360px] mx-auto px-margin md:px-margin-desktop flex flex-col md:flex-row items-center justify-between gap-space-sm text-on-surface-variant font-body-sm text-body-sm"><p>© 2025 FreshBasket Inc. Designed as an Academic Capstone Prototype. Not a real commercial grocery outlet.</p><div class="flex items-center gap-space-md font-label-sm text-label-sm"><a class="hover:text-primary transition-colors" href="#">Privacy Statement</a><a class="hover:text-primary transition-colors" href="#">Terms of Dispatch</a><a class="hover:text-primary transition-colors" href="#">Safety Protocols</a></div></div></div></footer><script src="fb-core.js" defer></script></body></html>
